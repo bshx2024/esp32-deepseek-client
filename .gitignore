@@ -1,0 +1,33 @@
+# PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+
+# Arduino
+*.hex
+*.elf
+*.bin
+*.map
+
+# Python / MicroPython
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Config files with real credentials
+config.h
+config.py
+secrets.h
+secrets.py
+
+# Editors & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
